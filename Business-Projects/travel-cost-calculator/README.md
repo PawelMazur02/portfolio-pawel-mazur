@@ -45,7 +45,8 @@ Built with simple HTML, CSS and vanilla JavaScript.
 ---
 
 ## Project Structure
-travel-cost-calculator/
+
+travel-cost-calculator/ \P
 │── index.html
 │── styles.css
 │── script.js
