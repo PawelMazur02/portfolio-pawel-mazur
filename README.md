@@ -22,7 +22,7 @@ This repository gathers my academic and side projects related to:
 
 ## About me
 
-I am a Business Informatics student focused on starting my career in **Business Intelligence / Data Analytics**.  
+I am a "IT in Business" student focused on starting my career in **Business Intelligence / Data Analytics**.  
 I enjoy working with data, designing databases, building reports in Excel, and modelling business processes.
 
 I am also a member of a **BI students’ research group**, where I develop my analytical and technical skills.
