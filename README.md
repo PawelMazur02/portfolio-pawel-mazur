@@ -17,7 +17,7 @@ This repository gathers my academic and side projects related to:
 - `SQL/` – SQL scripts, relational database for a car dealership, data warehouse & OLAP cube, distributed databases
 - `Excel/` – dashboards, pivot tables, formulas and business calculations
 - `Programming/` – C# mini-projects, Python OOP/statistics/text processing, algorithms (GCD/LCM)
-- `Business-Projects/` – travel cost calculator, game development technology analysis, accounting balance and project documentation
+- `Business-Projects/` – travel cost calculator, game development technology analysis, accounting balance and project documentation, UML, BPMN.
 - `Networks-and-Other/` – computer network configuration (Cisco), flowchart examples, Access queries
 
 ## About me
