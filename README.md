@@ -1,6 +1,5 @@
 # Paweł Mazur – Portfolio
 
-Junior Business Intelligence / Data Analyst  
 Student of Business Informatics (MSc, 1st year)
 
 This repository gathers my academic and side projects related to:
