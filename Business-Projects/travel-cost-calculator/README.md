@@ -29,31 +29,18 @@ The background changes depending on the selected currency:
 - 🇵🇱 PLN → `background.mp4`  
 - 🇺🇸 USD → `background_USD.mp4`  
 
-### ✔ Clean & responsive layout
+### Clean & responsive layout
 Built with simple HTML, CSS and vanilla JavaScript.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **HTML5** – UI structure  
 - **CSS3** – layout, styling, responsive design  
 - **JavaScript (Vanilla)** – logic, API communication, DOM manipulation  
 - **External API** – NBP exchange rates  
 - **Media** – MP4 background videos  
-
----
-
-## Project Structure
-
-travel-cost-calculator/ \P
-│── index.html
-│── styles.css
-│── script.js
-│── background.mp4
-│── background_USD.mp4
-└── README.md
-
 
 ---
 
