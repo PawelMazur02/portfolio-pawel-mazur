@@ -1,6 +1,6 @@
 # Paweł Mazur – Portfolio
 
-Student of Business Informatics (MSc, 1st year)
+Student of IT in Business (MSc, 1st year)
 
 This repository gathers my academic and side projects related to:
 
