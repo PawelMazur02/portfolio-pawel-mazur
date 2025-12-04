@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" id="definitions_0pbee0r" name="definitions" namespace="http://camunda.org/schema/1.0/dmn" exporter="dmn-js (https://demo.bpmn.io/dmn)" exporterVersion="17.0.2">
+  <decision id="decision_14a45ic" name="Klasyfikacja poziomu ryzyka">
+    <informationRequirement id="InformationRequirement_1xbnni1">
+      <requiredInput href="#InputData_14mtd37" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_1v5h8mr">
+      <requiredInput href="#InputData_1lm2acr" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_19j9yfi">
+      <requiredInput href="#InputData_12vtet1" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_0ls2yh8">
+      <requiredInput href="#InputData_13dfnfw" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_08099sh">
+      <requiredInput href="#InputData_17fn5qx" />
+    </informationRequirement>
+    <decisionTable id="decisionTable_04u8ogp">
+      <input id="input1" label="">
+        <inputExpression id="inputExpression1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="output1" label="" name="" typeRef="string" />
+    </decisionTable>
+  </decision>
+  <inputData id="InputData_14mtd37" name="Czas reakcji" />
+  <inputData id="InputData_1lm2acr" name="Wykrywalność" />
+  <inputData id="InputData_12vtet1" name="Wpływ" />
+  <inputData id="InputData_13dfnfw" name="Liczba podobnych zdarzeń" />
+  <inputData id="InputData_17fn5qx" name="Prawdopodobieństwo" />
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram id="DMNDiagram_0s1in0h">
+      <dmndi:DMNShape id="DMNShape_1s0790a" dmnElementRef="decision_14a45ic">
+        <dc:Bounds height="80" width="180" x="390" y="80" />
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="DMNShape_1b37fvk" dmnElementRef="InputData_14mtd37">
+        <dc:Bounds height="45" width="125" x="417" y="197" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0wrlrl2" dmnElementRef="InformationRequirement_1xbnni1">
+        <di:waypoint x="480" y="197" />
+        <di:waypoint x="480" y="180" />
+        <di:waypoint x="480" y="160" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0g8fz4b" dmnElementRef="InputData_1lm2acr">
+        <dc:Bounds height="45" width="125" x="547" y="197" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0j6lsdb" dmnElementRef="InformationRequirement_1v5h8mr">
+        <di:waypoint x="610" y="197" />
+        <di:waypoint x="510" y="180" />
+        <di:waypoint x="510" y="160" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0j71gee" dmnElementRef="InputData_12vtet1">
+        <dc:Bounds height="45" width="125" x="287" y="197" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0lloo20" dmnElementRef="InformationRequirement_19j9yfi">
+        <di:waypoint x="350" y="197" />
+        <di:waypoint x="450" y="180" />
+        <di:waypoint x="450" y="160" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0xz7dsd" dmnElementRef="InputData_13dfnfw">
+        <dc:Bounds height="45" width="125" x="677" y="197" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_04pnrm3" dmnElementRef="InformationRequirement_0ls2yh8">
+        <di:waypoint x="740" y="197" />
+        <di:waypoint x="540" y="180" />
+        <di:waypoint x="540" y="160" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_1k5rhzq" dmnElementRef="InputData_17fn5qx">
+        <dc:Bounds height="45" width="125" x="157" y="197" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0snz6c5" dmnElementRef="InformationRequirement_08099sh">
+        <di:waypoint x="220" y="197" />
+        <di:waypoint x="420" y="180" />
+        <di:waypoint x="420" y="160" />
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
