@@ -9,7 +9,7 @@ Project shows basic SQL design: tables, relationships, sample data and business 
 - Realistic example data
 - Simple modelling of a dealership’s workflow
 
-## ncluded Tables
+## Included Tables
 - **Cars** (Samochody)  
 - **Customers** (Klienci)  
 - **Employees** (Pracownicy)  
